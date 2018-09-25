@@ -27,3 +27,12 @@
 ## Webpack
 * entry 输入
 * output 输出
+* target 打包出来的内容在什么环境执行
+
+### 服务端渲染
+* SEO
+* 首屏时间
+
+
+
+
