@@ -24,14 +24,18 @@
 2. 压缩资源文集，减少请求大小
 3. 利用缓存机制，减少请求(Cache-control)
 
+### 服务端渲染
+* SEO
+* 首屏时间
+
 ## Webpack
 * entry 输入
 * output 输出
 * target 打包出来的内容在什么环境执行
 
-### 服务端渲染
-* SEO
-* 首屏时间
+### Webpack常用配置
+* webpack-dev-server
+* hot-module-replacement
 
 
 
