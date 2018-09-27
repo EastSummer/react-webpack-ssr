@@ -39,9 +39,13 @@ if(isDev) {
         host: '0.0.0.0',
         port: '8888',
         contentBase: path.join(__dirname, '../dist'),
-        hot: true,
+        // hot: true,
         overlay: {
             errors: true
+        },
+        publicPath: '/public',  // 对应output的publicPath，意思是访问所有静态文件都要走public路径
+        historyApiFallback: {
+            index: '/public/index.html' // 映射index文件
         }
     }
 }
